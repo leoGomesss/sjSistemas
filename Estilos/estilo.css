@@ -30,17 +30,12 @@ nav {
     gap: 10px;
 }
 nav a{
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: #464646;
     text-decoration: none;
 }
 nav a:hover{
-    color: #191970;
-    font-weight: bold;
-    font-size: 1.5em;
-    text-decoration: underline;
-    text-shadow: 1px 1px #f0dc82;
-    font-style: italic;
+    font-size: 1.3em;
     cursor: pointer;
 }
 /*Área Principal*/
@@ -141,8 +136,9 @@ footer img {
 }
 @media (max-width: 480px) {
   nav a:hover{
-    font-size: 0.9em;
+    font-size: 0.8em;
     text-decoration: none;
+    cursor: pointer;
 }
 }
 @media (max-width: 480px) {
