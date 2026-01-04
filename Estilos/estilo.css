@@ -140,6 +140,11 @@ footer img {
 }
 }
 @media (max-width: 480px) {
+  nav a:hover{
+    font-size: 1.1em;
+}
+}
+@media (max-width: 480px) {
   .banner img {
     width: 350px;
     height: 157px;
@@ -147,14 +152,14 @@ footer img {
 }
 @media (max-width: 480px){
     h2 {
-        font-size: 0.92em;
+        font-size: 1em;
         text-align: center;
         text-transform: uppercase;
 }
 }
 @media (max-width: 480px){
     h3 {
-        font-size: 0.8em;
+        font-size: 0.9em;
         text-align: center;
         text-transform: uppercase;
 }
