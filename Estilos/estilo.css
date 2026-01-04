@@ -165,12 +165,12 @@ footer img {
 }
 @media (max-width: 480px){
     iframe {
-        width: 49%;
+        width: 55%;
         height: 150px;
 }
 @media (max-width: 480px){
     #contato {
-        width: 50%;
+        width: 65%;
 }
 }
 }
