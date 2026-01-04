@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Cabeçalho(Topo)*/
+header {
+    width: 100%;
+    height: auto;
+    background-color: #90ee90;
+    padding: 20px;
+}
+/*Logo*/
+figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+figure img {
+    border-radius: 2%;
+}
+/*Links - Cabeçalho*/
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+nav a{
+    font-size: 1.3em;
+    color: #464646;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #191970;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: underline;
+    text-shadow: 1px 1px #f0dc82;
+    font-style: italic;
+    cursor: pointer;
+}
+/*Área Principal*/
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b8cad4;
+    padding: 50px 0;
+    flex-flow: column wrap;
+}
+main h2 {
+    text-align: center;
+    text-shadow: 0.7px 0.7px #464646;
+    padding: 10px;
+}
+.imagemProduto {
+    margin: 10px auto;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    width: 100%;
+    margin: 10px auto;
+    padding: 30px;
+    background-color: #90ee90;
+
+}
+section h3 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: 10px;
+}
+section p{
+    padding: 10px;
+}
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    width: 100%;
+    margin: 10px auto;
+    padding: 30px;
+}
+article h3 {
+    text-transform: uppercase;
+    text-shadow: 0.7px 0.7px #464646;
+    padding: 10px;
+}
+article p{
+    padding: 10px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #90ee90;
+}
+footer h3 {
+    text-transform: uppercase;
+    text-shadow: 0.7px 0.7px #464646;
+    margin: 20px;
+    padding: 10px;
+}
+footer p{
+    padding: 10px;
+}
+iframe {
+    width: 50%;
+    height: 400px;
+}
+.contato{
+    width: 60%;
+    margin: 20px auto;
+    background-color: #191970;
+    color: #f0dc82;
+    text-align: center;
+}
+footer img {
+    border-radius: 30%;
+}
