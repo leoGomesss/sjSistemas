@@ -141,7 +141,8 @@ footer img {
 }
 @media (max-width: 480px) {
   nav a:hover{
-    font-size: 1.1em;
+    font-size: 0.9em;
+    text-decoration: none;
 }
 }
 @media (max-width: 480px) {
@@ -193,12 +194,12 @@ footer img {
 }
 @media (max-width: 480px){
     iframe {
-        width: 55%;
+        width: 60%;
         height: 150px;
 }
 @media (max-width: 480px){
     #contato {
-        width: 65%;
+        width: 70%;
 }
 }
 }
