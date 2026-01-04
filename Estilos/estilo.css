@@ -151,7 +151,15 @@ footer img {
   }
 }
 @media (max-width: 480px){
-    h2 {
+    .imagemProduto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+}
+}
+@media (max-width: 480px){
+    .imagemProduto h2 {
         font-size: 1em;
         text-align: center;
         text-transform: uppercase;
