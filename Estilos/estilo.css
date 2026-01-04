@@ -147,7 +147,17 @@ footer img {
 }
 @media (max-width: 480px){
     iframe {
-        width: 30%;
+        width: 43%;
         height: 200px;
+}
+@media (max-width: 480px){
+    main h2 {
+        font-size: 0.5em;
+}
+}
+@media (max-width: 480px){
+    main p {
+        text-align: center;
+}
 }
 }
