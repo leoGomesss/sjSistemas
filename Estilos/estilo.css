@@ -172,6 +172,13 @@ footer img {
     }
 }
 @media (max-width: 480px){
+    #sobreNos img{
+        width: 200px;
+        height: 185px;
+        margin: 2px auto;
+    }
+}
+@media (max-width: 480px){
     iframe {
         width: 55%;
         height: 150px;
